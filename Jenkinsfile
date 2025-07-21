@@ -13,11 +13,11 @@ pipeline {
     }
 
     stages {
-        stage('Clone Repository') {
-            steps {
-                git 'https://github.com/waleolajumoke/springweb.git'
-            }
-        }
+        // stage('Clone Repository') {
+        //     steps {
+        //         git 'https://github.com/waleolajumoke/springweb.git'
+        //     }
+        // }
 
         stage('Build') {
             steps {
